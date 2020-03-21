@@ -8,17 +8,17 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 
 
 /**
- * 创建driver
+ * create driver
  */
 
 public class ContralDriver {
 
-    static Logger logger = Logger.getLogger(ContralDriver.class);
+    private static Logger loggeer = Logger.getLogger(ContralDriver.class);
     public RemoteWebDriver driver;
     public ContralDriver(){
-        System.setProperty("webdriver.chrome.driver","D:\\plugin\\chromev74\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\Users\\灵犀台\\AppData\\Local\\Google\\Chrome\\Application\\chromedriver.exe");
         driver =  new ChromeDriver();
-        logger.info("driver has been biult");
+        loggeer.info("driver has been biult");
     }
 
 }

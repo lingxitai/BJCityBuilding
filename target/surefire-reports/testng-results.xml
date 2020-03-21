@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="QueryDataTest" duration-ms="34972" started-at="2020-03-20T14:10:00Z" finished-at="2020-03-20T14:10:35Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="34972" started-at="2020-03-20T14:10:00Z" finished-at="2020-03-20T14:10:35Z">
+      <class name="QueryDataTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:QueryDataTest@f6c48ac]" name="beforeClass" is-config="true" duration-ms="22" started-at="2020-03-20T22:10:00Z" finished-at="2020-03-20T22:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:QueryDataTest@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="8631" started-at="2020-03-20T22:10:00Z" finished-at="2020-03-20T22:10:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="SelctorCheck()[pri:0, instance:QueryDataTest@f6c48ac]" name="SelctorCheck" duration-ms="1271" started-at="2020-03-20T22:10:09Z" finished-at="2020-03-20T22:10:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelctorCheck -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:QueryDataTest@f6c48ac]" name="quitDriver" is-config="true" duration-ms="1488" started-at="2020-03-20T22:10:10Z" finished-at="2020-03-20T22:10:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:QueryDataTest@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="5733" started-at="2020-03-20T22:10:13Z" finished-at="2020-03-20T22:10:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="queryMethod(java.lang.String)[pri:0, instance:QueryDataTest@f6c48ac]" name="queryMethod" duration-ms="15068" started-at="2020-03-20T22:10:19Z" data-provider="dataProvider" finished-at="2020-03-20T22:10:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[京211131548774]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryMethod -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:QueryDataTest@f6c48ac]" name="quitDriver" is-config="true" duration-ms="1212" started-at="2020-03-20T22:10:34Z" finished-at="2020-03-20T22:10:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- QueryDataTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- QueryDataTest -->
+</testng-results>

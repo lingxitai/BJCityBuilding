@@ -1,21 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8eb2488a-00a7-4be6-a95d-2f1a1c8e1126" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Testcase-query.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/log.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rolling.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/leon/base/ReadExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/leon/base/ReadExcel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+    <list default="true" id="8eb2488a-00a7-4be6-a95d-2f1a1c8e1126" name="Default Changelist" comment="add the first biuld">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/leon/base/BaseTestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/leon/base/BaseTestCase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/QueryDataTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/QueryDataTest/Command line test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/QueryDataTest/Command line test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-QueryDataTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/failed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-QueryDataTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/QueryDataTest/Command line test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/QueryDataTest/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/QueryDataTest/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/QueryDataTest/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/QueryDataTest/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/QueryDataTest/methods-alphabetical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/QueryDataTest/methods-not-run.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/QueryDataTest/methods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/QueryDataTest/reporter-output.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/QueryDataTest/testng.xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/QueryDataTest/toc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/passed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/skipped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/leon/base/ContralDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/leon/base/ContralDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/leon/page/QueryData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/leon/page/QueryData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/QueryDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QueryDataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/leon/base/ContralDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/leon/base/ContralDriver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/leon/page/QueryData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/leon/page/QueryData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/QueryDataTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/QueryDataTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,7 +94,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.QueryData">
+  <component name="RunManager" selected="TestNG.QueryDataTest">
     <configuration name="QueryDataTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="QueryDataTest" />
       <module name="BJCityBuilding" />
@@ -81,6 +113,35 @@
       <option name="PACKAGE_NAME" value="cn.leon.page" />
       <option name="MAIN_CLASS_NAME" value="cn.leon.page.QueryData" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueryDataTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BJCityBuilding" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="QueryDataTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueryData.SelctorCheck" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BJCityBuilding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.leon.page.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.leon.page" />
+      <option name="MAIN_CLASS_NAME" value="cn.leon.page.QueryData" />
+      <option name="METHOD_NAME" value="SelctorCheck" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -107,6 +168,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.QueryDataTest" />
+        <item itemvalue="TestNG.QueryData.SelctorCheck" />
         <item itemvalue="TestNG.QueryData" />
         <item itemvalue="TestNG.QueryData.queryMethod" />
         <item itemvalue="Application.QueryDataTest" />
@@ -145,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584670676221</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add the first query case">
+      <created>1584687332429</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584687332429</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,6 +232,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add dependency" />
     <MESSAGE value="add the first case" />
-    <option name="LAST_COMMIT_MESSAGE" value="add the first case" />
+    <MESSAGE value="add the first query case" />
+    <MESSAGE value="add the first biuld" />
+    <option name="LAST_COMMIT_MESSAGE" value="add the first biuld" />
   </component>
 </project>

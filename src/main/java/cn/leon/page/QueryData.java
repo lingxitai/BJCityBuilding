@@ -5,24 +5,42 @@ import cn.leon.base.ContralDriver;
 import cn.leon.base.ReadExcel;
 import org.apache.log4j.Logger;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
+import java.util.List;
 
 public class QueryData {
 
     static Logger logger= Logger.getLogger(QueryData.class);
-    @Test(dataProvider = "dataProvider")
-    public void queryMethod(String accountNum) throws InterruptedException {
+    static RemoteWebDriver driver;
+    @BeforeClass
+    public void beforeClass(){
         logger.info("开始测试queryMethod");
         ContralDriver selfdriver =  new ContralDriver();
-        RemoteWebDriver driver = selfdriver.driver;
+        driver = selfdriver.driver;
         driver.navigate().to("http://bjjs.zjw.beijing.gov.cn/eportal/ui?pageId=314443");
         logger.info("打开网站");
+    }
 
+    @Test
+    public void SelctorCheck(){
+        WebElement job = driver.findElementById("filter_EQUAL_级别");
+        Select downlist =  new Select(job);
+        List <WebElement>list = downlist.getOptions();
+        for(WebElement option:list){
+            System.out.println("下拉选项有："+option.getText());
+        }
+    }
+
+    @Test(dataProvider = "dataProvider")
+    public void queryMethod(String accountNum) throws InterruptedException {
         driver.manage().window().maximize();
         logger.info("最大化窗口");
         Thread.sleep(3000);
