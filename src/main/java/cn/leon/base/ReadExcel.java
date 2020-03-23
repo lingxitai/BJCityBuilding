@@ -1,10 +1,7 @@
 package cn.leon.base;
 
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.ss.usermodel.WorkbookFactory;
+import org.apache.poi.ss.usermodel.*;
 
 import java.io.File;
 import java.io.IOException;
@@ -92,7 +89,7 @@ public class ReadExcel {
         return row.getCell(col).getStringCellValue();
     }
     /**
-     * 获得值，传递sheetname 和行数和列数即可获得相应值
+     * 获得值，传递sheetname 和行数和列数即可获得相应值(按照从0开始数)
      * @param sheetname
      * @param row
      * @param col
@@ -105,7 +102,7 @@ public class ReadExcel {
     /**
      * 为案例提供Object[][]类型数据，为@DataProvider使用
      * @param sheetname 读取的sheet名
-     * @param startRow 开始行（指定哪一行就从那一行开始读）
+     * @param startRow 开始行（指定哪一行就从那一行开始读）（按照从1开始读）
      * @param endRow 结束行
      * @param startCol 开始列
      * @param endCol 结束列
@@ -118,7 +115,9 @@ public class ReadExcel {
         for (int i = startRow; i <= endRow; i++) {
             Row row = sheet.getRow(i - 1);
             for (int j = startCol; j <= endCol; j++) {
-                String value = row.getCell(j - 1, Row.MissingCellPolicy.CREATE_NULL_AS_BLANK).getStringCellValue();
+                Cell ge=row.getCell(j - 1, Row.MissingCellPolicy.CREATE_NULL_AS_BLANK);//先找到这个格子
+                ge.setCellType(CellType.STRING);//将格子类型转换为String，否则，excel中是数字会报错
+                String value = ge.getStringCellValue();
                 datas[i - startRow][j - startCol] = value;
             }
         }
