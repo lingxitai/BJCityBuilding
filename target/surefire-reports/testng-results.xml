@@ -1,33 +1,191 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="QueryDataTest" duration-ms="34972" started-at="2020-03-20T14:10:00Z" finished-at="2020-03-20T14:10:35Z">
+  <suite name="Command line suite" duration-ms="37723" started-at="2020-03-24T01:28:28Z" finished-at="2020-03-24T01:29:06Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="34972" started-at="2020-03-20T14:10:00Z" finished-at="2020-03-20T14:10:35Z">
-      <class name="QueryDataTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:QueryDataTest@f6c48ac]" name="beforeClass" is-config="true" duration-ms="22" started-at="2020-03-20T22:10:00Z" finished-at="2020-03-20T22:10:00Z">
+    <test name="Command line test" duration-ms="37723" started-at="2020-03-24T01:28:28Z" finished-at="2020-03-24T01:29:06Z">
+      <class name="TBphoneTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TBphoneTest@4f7d0008]" name="beforeClass" is-config="true" duration-ms="28" started-at="2020-03-24T09:29:05Z" finished-at="2020-03-24T09:29:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:QueryDataTest@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="8631" started-at="2020-03-20T22:10:00Z" finished-at="2020-03-20T22:10:09Z">
+        <test-method status="PASS" signature="testTbphone(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TBphoneTest@4f7d0008]" name="testTbphone" duration-ms="183" started-at="2020-03-24T09:29:05Z" data-provider="dataPhoneProvider" finished-at="2020-03-24T09:29:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tel]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[18500232857]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://tcc.taobao.com/cc/json/mobile_tel_segment.htm?]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[北京联通]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTbphone -->
+        <test-method status="PASS" signature="testTbphone(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TBphoneTest@4f7d0008]" name="testTbphone" duration-ms="87" started-at="2020-03-24T09:29:05Z" data-provider="dataPhoneProvider" finished-at="2020-03-24T09:29:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tel]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[18693715707]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://tcc.taobao.com/cc/json/mobile_tel_segment.htm?]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[甘肃联通]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTbphone -->
+        <test-method status="PASS" signature="testTbphone(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TBphoneTest@4f7d0008]" name="testTbphone" duration-ms="80" started-at="2020-03-24T09:29:05Z" data-provider="dataPhoneProvider" finished-at="2020-03-24T09:29:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tel]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[13439131837]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://tcc.taobao.com/cc/json/mobile_tel_segment.htm]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[北京移动]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTbphone -->
+        <test-method status="PASS" signature="testTbphone(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TBphoneTest@4f7d0008]" name="testTbphone" duration-ms="87" started-at="2020-03-24T09:29:05Z" data-provider="dataPhoneProvider" finished-at="2020-03-24T09:29:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tel]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[136]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://tcc.taobao.com/cc/json/mobile_tel_segment.htm]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[天津]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTbphone -->
+        <test-method status="PASS" signature="testTbphone(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TBphoneTest@4f7d0008]" name="testTbphone" duration-ms="90" started-at="2020-03-24T09:29:06Z" data-provider="dataPhoneProvider" finished-at="2020-03-24T09:29:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tel]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://tcc.taobao.com/cc/json/mobile_tel_segment.htm]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[GetZoneResult]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTbphone -->
+      </class> <!-- TBphoneTest -->
+      <class name="BJGvoAPITest">
+        <test-method status="PASS" signature="beforeMetod()[pri:0, instance:BJGvoAPITest@5f341870]" name="beforeMetod" is-config="true" duration-ms="502" started-at="2020-03-24T09:28:28Z" finished-at="2020-03-24T09:28:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMetod -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String)[pri:0, instance:BJGvoAPITest@5f341870]" name="test1" duration-ms="2514" started-at="2020-03-24T09:28:28Z" data-provider="datasProvider" finished-at="2020-03-24T09:28:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pageId]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[314443]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- BJGvoAPITest -->
+      <class name="QueryDataTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:QueryDataTest@553f17c]" name="beforeMethod" is-config="true" duration-ms="5491" started-at="2020-03-24T09:28:31Z" finished-at="2020-03-24T09:28:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="SelctorCheck()[pri:0, instance:QueryDataTest@f6c48ac]" name="SelctorCheck" duration-ms="1271" started-at="2020-03-20T22:10:09Z" finished-at="2020-03-20T22:10:10Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:QueryDataTest@553f17c]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-03-24T09:28:31Z" finished-at="2020-03-24T09:28:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="SelctorCheck()[pri:0, instance:QueryDataTest@553f17c]" name="SelctorCheck" duration-ms="861" started-at="2020-03-24T09:28:36Z" finished-at="2020-03-24T09:28:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelctorCheck -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:QueryDataTest@f6c48ac]" name="quitDriver" is-config="true" duration-ms="1488" started-at="2020-03-20T22:10:10Z" finished-at="2020-03-20T22:10:12Z">
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:QueryDataTest@553f17c]" name="quitDriver" is-config="true" duration-ms="1041" started-at="2020-03-24T09:28:37Z" finished-at="2020-03-24T09:28:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:QueryDataTest@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="5733" started-at="2020-03-20T22:10:13Z" finished-at="2020-03-20T22:10:19Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:QueryDataTest@553f17c]" name="beforeMethod" is-config="true" duration-ms="5205" started-at="2020-03-24T09:28:38Z" finished-at="2020-03-24T09:28:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="queryMethod(java.lang.String)[pri:0, instance:QueryDataTest@f6c48ac]" name="queryMethod" duration-ms="15068" started-at="2020-03-20T22:10:19Z" data-provider="dataProvider" finished-at="2020-03-20T22:10:34Z">
+        <test-method status="PASS" signature="queryMethod(java.lang.String)[pri:0, instance:QueryDataTest@553f17c]" name="queryMethod" duration-ms="20704" started-at="2020-03-24T09:28:44Z" data-provider="dataProvider" finished-at="2020-03-24T09:29:04Z">
           <params>
             <param index="0">
               <value>
@@ -38,11 +196,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- queryMethod -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:QueryDataTest@f6c48ac]" name="quitDriver" is-config="true" duration-ms="1212" started-at="2020-03-20T22:10:34Z" finished-at="2020-03-20T22:10:35Z">
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:QueryDataTest@553f17c]" name="quitDriver" is-config="true" duration-ms="790" started-at="2020-03-24T09:29:04Z" finished-at="2020-03-24T09:29:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
       </class> <!-- QueryDataTest -->
     </test> <!-- Command line test -->
-  </suite> <!-- QueryDataTest -->
+  </suite> <!-- Command line suite -->
 </testng-results>

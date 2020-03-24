@@ -1,4 +1,6 @@
 cn\leon\base\BaseTestCase.class
+cn\leon\base\BaseUrl.class
+cn\leon\base\ReadExcel.class
 cn\leon\page\QueryData.class
 cn\leon\base\ContralDriver.class
-cn\leon\base\ReadExcel.class
+cn\leon\base\BaseRequest.class
